@@ -1,0 +1,10 @@
+.center div {
+  margin: 0 auto;
+}
+
+.center .sortData {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  width: 40%;
+}
