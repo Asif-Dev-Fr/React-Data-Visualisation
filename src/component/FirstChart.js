@@ -91,8 +91,8 @@ const FirstChart = ({ results }) => {
   return (
     <div className="center">
       <div className="sortData">
-        <select onChange={sortData} class="form-select" aria-label="Default select example">
-          <option selected>Open this select menu</option>
+        <select onChange={sortData} className="form-select" aria-label="Default select example">
+          <option defaultValue>Open this select menu</option>
           <option value="max">Sort by maximum diameter</option>
           <option value="min">Sort by minimum diameter</option>
           <option value="name">Sort by name</option>
